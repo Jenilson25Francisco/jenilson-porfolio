@@ -75,3 +75,20 @@
   }
 }
 
+.container {
+  @apply mx-auto w-full max-w-[1200px] px-6
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: hsl(226.2 57% 21%);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: hsl(225.9 70.7% 40.2%);
+  border-radius: 14px;
+}

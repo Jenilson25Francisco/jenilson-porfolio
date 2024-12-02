@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <body
         className={`${ubuntu.className} dark antialiased`}
       >
