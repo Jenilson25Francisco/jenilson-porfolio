@@ -17,7 +17,9 @@ export default function Home() {
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
             <MyTechs title="html5" imageUrl="/HTML.png" />
             <MyTechs title="css3" imageUrl="/CSS.png" />
+            <MyTechs title="javascript" imageUrl="/JavaScript.png" />
             <MyTechs title="React" imageUrl="/React.png" />
+            <MyTechs title="React Native" imageUrl="/React.png" />
             <MyTechs title="java" imageUrl="/java.png" />
             <MyTechs title="springboot" imageUrl="/springboot.png" />
           </div>
