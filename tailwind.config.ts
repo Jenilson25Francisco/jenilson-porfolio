@@ -8,6 +8,9 @@ const config: Config = {
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		backgroundImage: {
+			'hero-image': "url(/hero.jpg)"
+		},
 		fontFamily: {
 			sans: 'Ubuntu, sans-serif'
 		},
